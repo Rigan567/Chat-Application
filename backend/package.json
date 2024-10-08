@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
-    "build": "cd ../frontend && npm install && npm run build"
+    "build": "npm install && npm install --prefix ../frontend && npm run build --prefix ../frontend"
   },
   "author": "Rigan Paul",
   "license": "ISC",
